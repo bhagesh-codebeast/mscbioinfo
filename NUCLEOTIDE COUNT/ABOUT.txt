@@ -1,1 +1,1 @@
-
+html-php form to calculate the number of basepairs of DNA/RNA/Protein sequences along with their percentage (%).
