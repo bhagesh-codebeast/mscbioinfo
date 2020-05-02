@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Melting Temperature of primer</title>
+	</head>
+		<body>
+		<h1 align="center">Calculation of Melting Temperature of Primer</h1>
+			<form action="melting.php" method="post">
+				Enter the sequence: <input type="text" name="seq" maxlength="50"><br><br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+			<p>
+	<h2>Basic Melting Temperature (Tm) Calculations</h2><br>
+	Two standard approximation calculations are used.<br>
+	For sequences less than 14 nucleotides the formula is:<br>
+    <b> Tm= (wA+xT) * 2 + (yG+zC) * 4</b><br><br>
+
+	 where w,x,y,z are the number of the bases A,T,G,C in the sequence, respectively.<br>
+	 For sequences longer than 13 nucleotides, the equation used is<br>
+     <b>Tm= 64.9 +41*(yG+zC-16.4)/(wA+xT+yG+zC)</b><br>
+
+When degenerated nucleotides are included in the primer sequence (Y,R,W,S,K,M,D,V,H,B or N), those nucleotides will be internally substituted prior to minimum and maximum Tm calculation.<br></p>
+		</body>
+</html>
