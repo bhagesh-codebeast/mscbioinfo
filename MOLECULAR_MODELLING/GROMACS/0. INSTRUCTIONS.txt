@@ -1,0 +1,18 @@
+modeller running scripts
+
+UNK SEQUENCE RUN BLAST TO FIND A HOMOLOGOUS SEQUENCE FOR REFERENCE AND DOWNLOAD ITS PDB
+
+0.  CREATE A .ALI FILE WITH THE UNKNOWN (UNK) FASTA SEQUENCE
+
+I.  modify "align2d.py" file enter details of your query and reference structures
+ $mod9.24 align2d.py
+will result in two files
+
+II.  modify "model-single.py" file enter details of the .ali generated file (PIR)
+=alnfile='XXX-UNK.ali'
+=knowns='XXXX', sequence='UNK',
+
+ $mod9.24 model-single.py
+will result in 5 models
+
+III.  

@@ -1,0 +1,16 @@
+python code to run vina on terminal
+
+#0. take vina path as input > parse it as sys argument
+#1. search for "protein.pdbqt" "ligand.pdbqt" files (ligand & protein) & "grid.txt" for config details
+#2. parse pdbqt as sys argument
+#3. read "grid.txt" output file and parse 
+	2nd line int as size params
+	3nd line int as center params
+	as sys.arg
+
+#
+#
+#
+#
+#
+#

@@ -1,0 +1,6 @@
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor protein.pdbqt --ligand ligand.pdbqt --config config.txt --log log.txt --out output.pdbqt
+
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor 4mzi_1.pdbqt --ligand LIGAND_2.pdbqt --config config.txt --log log.txt --out output.pdbqt
+
+       
+
